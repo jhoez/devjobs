@@ -1,0 +1,2 @@
+solo si son mucho campos, pero los campos del formulario deben ser iguales a los campos de la table en la base de datos
+    Modelo::create($request->all());

@@ -1,0 +1,9 @@
+iniciar tinker
+    php artisan tinker
+
+usar un modelo
+    use App\Models\Categoria
+    $categoria = new Categoria;
+    $categoria->nombre = "hogar";
+    $categoria->save(); // y con esto guardamos un registro utilizando tinker
+
